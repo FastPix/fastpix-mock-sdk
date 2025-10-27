@@ -8,6 +8,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "build": "echo 'Build step running...'; mkdir -p dist && cp -r src/* dist/"
+  },
   "author": "Your Name",
   "license": "MIT"
 }
