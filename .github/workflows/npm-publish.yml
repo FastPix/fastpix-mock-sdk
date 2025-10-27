@@ -30,4 +30,4 @@ jobs:
       - run: npm run build
       - run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.CLASSIC_TOKEN_NPM_TEST}}
+          NODE_AUTH_TOKEN: ${{secrets.GRANULAR_ACCESS_TOKEN}}
